@@ -1,0 +1,8 @@
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <div class="container d-inline-flex p-2 border-black">
+    <h2>Write something</h2>
+    <!-- <input type="text" name="userText" class="form-control" ngModel #onSubmit="ngModel" /> -->
+    <input type="text" name="userText" ngModel #userText="ngModel">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>

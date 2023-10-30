@@ -1,0 +1,5 @@
+<div class="container">
+  <app-user-input (sendUserText)="onSubmit($event)"></app-user-input>
+  <app-odd-words [answer]="usersText"></app-odd-words>
+  <app-even-words [answer]="usersText"></app-even-words>
+</div>
